@@ -1,0 +1,70 @@
+.Body {
+  background-image: linear-gradient(pink, white);
+  height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  text-shadow: 5px 5px 5px cyan;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.btnOne {
+  padding: 20px;
+  background-color: rgb(129, 202, 202);
+  border: none;
+  border-radius: 30px;
+  font-size: larger;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.btnTwo {
+  padding: 20px;
+  background-color: rgb(129, 202, 202);
+  border: none;
+  border-radius: 30px;
+  font-size: larger;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.components {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.functional {
+  margin-top: 40px;
+  text-align: center;
+  border: 2px solid black;
+  height: 250px;
+  width: 450px;
+  border-radius: 50px;
+  background-color: aqua;
+}
+
+.classComp {
+  margin-top: 40px;
+  text-align: center;
+  border: 2px solid black;
+  height: 250px;
+  width: 450px;
+  border-radius: 50px;
+  background-color: purple;
+}
+
+.ClassFunc {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
